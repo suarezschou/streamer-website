@@ -31,8 +31,8 @@ export default function Home() {
       <Image
         src="/youtube.svg"
         alt="logo of twitch"
-        width={200}
-        height={200}
+        width={150}
+        height={100}
         className="animate-pulse"
       />
       </Link>
