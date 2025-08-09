@@ -36,8 +36,9 @@ export default function Home() {
         height={200}
         className="animate-pulse"
       />
-      </Link>
       </div>
+      </Link>
+      
       
 
     </div>
