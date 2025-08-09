@@ -26,7 +26,7 @@ export default function Home() {
         className="animate-pulse"
       />
       </Link>
-      
+      <div classname="bg-white">
       <Link href="https://www.youtube.com/@TheRushMaster">
       <Image
         src="/youtube.svg"
@@ -36,6 +36,7 @@ export default function Home() {
         className="animate-pulse"
       />
       </Link>
+      </div>
 
     </div>
   );
