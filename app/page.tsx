@@ -3,11 +3,15 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    // Wrap everything in a single parent div
-    <div className="flex flex-col justify-center items-center min-h-screen bg-black gap-10 p-10">
-      <p className="text-2xl font-bold text-blue-600 tracking-wide p-10">
-        TheRushMaster: Age of Empires 2 player and streamer
-      </p>
+    <div className="flex flex-col justify-center items-center min-h-screen bg-black gap-10">
+      <Image
+          src="/therushmaster.png"
+          alt="logo of TheRushMaster"
+          width={200}
+          height={200}
+          className="mb-20"
+
+          />
       <Link href="https://www.kick.com/therushmaster">
         <Image
           src="/kick.svg"
